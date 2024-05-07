@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        async function print() {
+            const p = new Promise((resolve, reject) => {
+                setTimeout(() => {resolve()}, 1000);
+            });
+            return p.then(() => {console.log("Hello")});
+        }
+
+        async function steps() {
+            const p = new Promise((resolve, reject) => {
+                resolve();
+            })
+
+            p
+            .then(print)
+            .then(print)
+            .then(print);
+
+            // await print();
+            // await print();
+            // await print();
+        }
+
+        steps();
+    </script>
+</body>
+</html>

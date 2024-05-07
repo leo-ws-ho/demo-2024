@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .text {
+            animation-duration: 3s;
+            animation-name: fly-from-right;
+            border: 1px solid red;
+            width: 200px;
+        }
+        @keyframes fly-from-right {
+            from {
+                margin-left: 100%; 
+            }
+            50% {
+                margin-left: 0%;
+                background-color: green;
+                transform: scaleX(0);
+            }
+            to {
+                margin-left: 0%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <p class="text">
+        This is some text.
+    </p>
+</body>
+
+</html>

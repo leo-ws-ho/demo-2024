@@ -1,0 +1,56 @@
+
+15 (fifteen)  10 + 5
+1111 (fifteen)  8 + 4 + 2 + 1
+F  (fifteen)   15
+
+
+13 (thirteen)  10 + 3
+1101 (thirteen)  8 + 4 + 0 + 1
+
+
+Exercise:
+
+1. Declare a variable called length, another called width, 
+   and compute the area of a rectangle and print the result
+   to the console.
+   (Initialise length to 5 and width to 3.5)
+
+2. Define an object of rectangle, with properties called lenght, width
+   and set them to 5 and 3.5;
+
+3. Leap year:  let variable "year" store a year.
+   Console log whether this year is a leap year or not.
+   year: 2024 --> output "It is a leap year!"
+   year: 2000 --> output "It is a leap year!"
+   year: 2023 --> output "It is not a leap year!"
+
+
+
+
+
+
+
+Exercise
+1. Write a program to print out a greeting to every name
+   defined in an array:
+   let names = ['gemma', 'leo', 'stanley', 'tina', 'polly', 'hana'];
+
+2. Write a program to ask the user to enter a number;
+   print out that number of * to the console.
+   e.g., if input is 5,
+   *****
+   is printed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
